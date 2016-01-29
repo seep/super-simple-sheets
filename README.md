@@ -109,7 +109,7 @@ let cells = await worksheet.cells({ range: 'R1C1:R3C3' });
 
 If your spreadsheet is private, you can authorize the module using a Google Service Account JSON keyfile. It looks something like
 
-```javascript
+```json
 {
   "private_key_id": "some_key_id",
   "private_key": "SOME_REALLY_LONG_KEY_STRING",
