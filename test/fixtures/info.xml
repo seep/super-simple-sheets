@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed>
+    <id>https://spreadsheets.google.com/feeds/worksheets/test_spreadsheet/public/basic</id>
+    <title>Test Spreadsheet</title>
+    <updated>2015-01-01T00:00:00.000Z</updated>
+    <author>
+        <name>test</name>
+        <email>test@test.com</email>
+    </author>
+    <entry>
+        <id>https://spreadsheets.google.com/feeds/worksheets/test_spreadsheet/test_worksheet</id>
+        <title>Test Worksheet</title>
+        <updated>2015-01-01T00:00:00.000Z</updated>
+        <gs:colCount>4</gs:colCount>
+        <gs:rowCount>4</gs:rowCount>
+    </entry>
+</feed>

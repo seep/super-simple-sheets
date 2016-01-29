@@ -1,0 +1,29 @@
+{
+  "name": "simple-google-sheets",
+  "version": "0.0.1",
+  "description": "the simplest way to read cells from Google Sheets",
+  "main": "./lib/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "babel -d lib src",
+    "test": "babel-node test/index.js | faucet"
+  },
+  "author": "Chris Parker <chris@aton.io>",
+  "license": "MIT",
+  "dependencies": {
+    "google-auto-auth": "^0.2.3",
+    "lodash.defaults": "^3.1.2",
+    "lodash.merge": "^3.3.2",
+    "lodash.pick": "^3.1.0",
+    "pify": "^2.3.0",
+    "request": "^2.67.0",
+    "xml2js": "^0.4.15"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.3.13",
+    "babel-plugin-transform-es2015-destructuring": "^6.3.13",
+    "babel-plugin-transform-strict-mode": "^6.3.13",
+    "blue-tape": "^0.1.11",
+    "faucet": "0.0.1"
+  }
+}
