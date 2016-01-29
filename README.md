@@ -1,4 +1,4 @@
-# Simple Google Sheets
+# Super Simple Sheets
 
 The simplest way to read (and only read) cells from Google Sheets.
 

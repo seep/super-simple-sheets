@@ -1,5 +1,5 @@
 {
-  "name": "simple-google-sheets",
+  "name": "super-simple-sheets",
   "version": "0.0.1",
   "description": "the simplest way to read cells from Google Sheets",
   "main": "./lib/index.js",
